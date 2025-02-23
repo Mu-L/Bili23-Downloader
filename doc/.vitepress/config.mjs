@@ -207,8 +207,12 @@ export default defineConfig({
       },
       {
         text: '常见问题',
+        collapsed: true,
         items: [
-
+          {
+            text: '下载相关',
+            link: '/doc/faq/download'
+          }
         ]
       }
     ],
