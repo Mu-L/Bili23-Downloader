@@ -7,13 +7,13 @@ hero:
   tagline: 支持 Windows、Linux、MacOS 三平台，下载 B 站视频/番剧/电影/纪录片 等资源
   actions:
     - theme: brand
-      text: 🪄下载
+      text: 下载安装
       link: https://github.com/ScottSloan/Bili23-Downloader/releases
     - theme: alt
-      text: 📄文档
-      link: /doc/intro
+      text: 项目文档
+      link: /doc
     - theme: alt
-      text: 📰更新日志
+      text: 开源地址
       link: https://github.com/ScottSloan/Bili23-Downloader
 
 features:
