@@ -38,7 +38,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           {
-            text: '安装主程序',
+            text: '安装程序',
             link: '/doc/install/main'
           },
           {

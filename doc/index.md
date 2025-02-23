@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 下载安装
-      link: https://github.com/ScottSloan/Bili23-Downloader/releases
+      link: /doc/install/main
     - theme: alt
       text: 项目文档
       link: /doc/intro
