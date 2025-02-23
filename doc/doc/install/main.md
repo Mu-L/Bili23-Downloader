@@ -2,13 +2,12 @@
     import { version } from '../../package.json'
     
     let release_asset = `Bili23_Downloader_v${version}_release.tar.gz`
-    let release_asset_github = `https://github.com/ScottSloan/Bili23-Downloader/releases/download/v${version}/Bili23_Downloader_v${version}_release.tar.gz`
-    
     let release_asset_win_ffmpeg = `Bili23-Downloader-${version}-win-amd64.zip`
-    let release_asset_win_ffmpeg_github = `https://github.com/ScottSloan/Bili23-Downloader/releases/download/v${version}/Bili23-Downloader-${version}-win-amd64.zip`
-
     let release_asset_win = `Bili23_Downloader_v${version}_win_x64.zip`
-    let release_asset_win_github = `https://github.com/ScottSloan/Bili23-Downloader/releases/download/v${version}/Bili23_Downloader_v${version}_win_x64.zip`
+
+    let release_asset_github = (version, file)=> {
+        return `https://github.com/ScottSloan/Bili23-Downloader/releases/download/v${version}/${file}`
+    }
 
 </script>
 
@@ -20,7 +19,7 @@
 | 文件名 | 平台架构 | 下载地址 | 备注 |
 | -- | -- | -- | -- |
 | {{ release_asset }} | 通用 | - | 源码版 |
-| {{ release_asset_win_ffmpeg }} | Windows x64 | <a href="{{ release_asset_win_ffmpeg_github }}" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/iJNAV2m5jdna" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，附带 FFmpeg |
+| {{ release_asset_win_ffmpeg }} | Windows x64 | <a :href="release_asset_github(version, release_asset_win_ffmpeg)" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/iJNAV2m5jdna" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，附带 FFmpeg |
 | {{ release_asset_win }} | Windows x64 | - | 编译版，不附带 FFmpeg |
 
 文件 SHA1 值校验
@@ -120,6 +119,11 @@ sudo apt install python3-wxgtk4.0 python3-wxgtk-webview4.0
 ```bash
 pip install qrcode[pil]==7.4.2 requests>=2.30.0
 ```
+
+### 安装 FFmpeg
+程序依赖 FFmpeg 实现音视频合成，格式转换，直播录制等功能，缺少时将影响正常使用。  
+
+点击[此处](https://bili23.scott-sloan.cn/doc/install/ffmpeg.html)查看 FFmpeg 安装教程。
 
 ### 运行程序
 直接运行 GUI.py 即可打开程序：
