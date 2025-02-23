@@ -58,6 +58,10 @@ export default defineConfig({
           {
             text: '支持的链接',
             link: '/doc/use/url'
+          },
+          {
+            text: '进阶使用',
+            link: '/doc/use/advanced'
           }
         ]
       },
