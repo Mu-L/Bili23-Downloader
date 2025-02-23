@@ -1,3 +1,9 @@
+<script setup>
+    import { version } from '../../package.json'
+
+    let release_asset = `Bili23_Downloader_v${version}_release.tar.gz`
+</script>
+
 # 安装程序
 ## 下载发行版
 用户可前往[GitHub Release](https://github.com/ScottSloan/Bili23-Downloader/releases/)页面查看历史版本。  
@@ -5,9 +11,9 @@
 
 | 文件名 | 平台架构 | 下载地址 | 备注 |
 | -- | -- | -- | -- |
-| Bili23_Downloader_v1.55_release.zip | 通用 | - | 源码版 |
+| {{ release_asset }} | 通用 | - | 源码版 |
 | Bili23-Downloader-1.55.0-win-amd64.zip | Windows x64 | <a href="https://github.com/ScottSloan/Bili23-Downloader/releases/tag/v1.55.0" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/iJNAV2m5jdna" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，附带 FFmpeg |
-| Bili23-Downloader_v1.55_win_x64.zip | Windows x64 | - | 编译版，不附带 FFmpeg |
+| Bili23-Downloader_v1.55.0_win_x64.zip | Windows x64 | - | 编译版，不附带 FFmpeg |
 
 文件 SHA1 值校验
 | 文件名 | SHA1 |
@@ -20,8 +26,38 @@
 本程序完全开源免费，若是从其他渠道付费获取的，无法保证其安全性和完整性。
 :::
 
+### 如何选择下载版本
++ 未安装 Python 环境  
+    + Windows  
+        -> 编译版，建议选择附带 FFmpeg 的版本  
+    + Linux & macOS  
+        -> 源码版  
+
++ 已安装 Python 环境  
+    -> 源码版
+
+### 如何校验 SHA1
+根据系统运行下方的命令：
+#### Windows
+```bash
+certutil -hashfile <file> SHA1
+```
+
+#### Linux
+```bash
+sha1sum <file>
+```
+
+#### macOS
+```bash
+shasum -a 1 <file>
+```
+
 ## 源码版使用
 ### 安装 Python 环境
+Python 版本需要为 3.10 及以上。
+
+::: details 如果还未安装 Python 环境，点击查看安装方式
 从[Python官网](https://www.python.org/)下载系统对应的 Python，建议使用 3.11 及以上版本，最低支持 3.10 版本。  
 
 若下载速度缓慢，建议使用国内[华为云镜像源](https://mirrors.huaweicloud.com/python/)下载。  
@@ -34,15 +70,16 @@
 ```bash
 pip config set global.index-url https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
 ```
+:::
 
 ### 克隆仓库
-若已安装 git，执行以下命令克隆仓库即可：
+若已安装 git，执行以下命令克隆仓库：
 ```bash
 git clone https://github.com/ScottSloan/Bili23-Downloader.git
 cd Bili23-Downloader
 ```
 
-若系统未安装 git，请下载 tar.gz 格式源码并解压，进入到 requirements.txt 同一级目录。
+若系统未安装 git，请下载上方 tar.gz 格式源码并解压，进入到 requirements.txt 同一级目录。
 
 ### 安装依赖
 执行下面的命令一键安装所需依赖：
@@ -60,7 +97,7 @@ pip install -r requirements.txt
 
 用户也可以手动安装：
 ```bash
-pip install wxPython qrcode[pil]==7.4.2 requests
+pip install wxPython>=4.2.0 qrcode[pil]==7.4.2 requests>=2.30.0
 ```
 
 ### 运行程序
