@@ -74,6 +74,10 @@ export default defineConfig({
         collapsed: true,
         items: [
           {
+            text: '运行相关',
+            link: '/doc/faq/run'
+          },
+          {
             text: '下载相关',
             link: '/doc/faq/download'
           }
