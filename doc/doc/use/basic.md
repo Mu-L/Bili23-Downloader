@@ -104,7 +104,7 @@
 
 [![pElc0eS.png](https://s21.ax1x.com/2025/02/23/pElc0eS.png)](https://imgse.com/i/pElc0eS)
 
-程序直接提供了解析后的 m3u8 直链，可在外部播放器中播放。  
+程序提供了解析后的 m3u8 直链，可在外部播放器中直接播放。  
 由于 FFmpeg 的特性，从点击录制到真正开始录制大约需要10s。  
 
 :::tip

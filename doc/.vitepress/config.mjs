@@ -15,7 +15,7 @@ export default defineConfig({
       },
       {
         text: '文档',
-        link: '/doc/intro'
+        link: '/doc/waht-is-bili23-downloader'
       },
       {
         text: '博客',
@@ -28,8 +28,8 @@ export default defineConfig({
         text: '简介',
         items: [
           {
-            text: 'Bili23 Downloader 简介',
-            link: '/doc/intro'
+            text: '什么是 Bili23 Downloader？',
+            link: '/doc/waht-is-bili23-downloader'
           }
         ]
       },
@@ -214,6 +214,14 @@ export default defineConfig({
             link: '/doc/faq/download'
           }
         ]
+      },
+      {
+        text: '免责声明',
+        link: '/doc/announcement'
+      },
+      {
+        text: '开源许可',
+        link: '/doc/license'
       }
     ],
 

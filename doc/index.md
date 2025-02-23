@@ -11,7 +11,7 @@ hero:
       link: /doc/install/main
     - theme: alt
       text: 项目文档
-      link: /doc/intro
+      link: /doc/waht-is-bili23-downloader
     - theme: alt
       text: 开源地址
       link: https://github.com/ScottSloan/Bili23-Downloader
