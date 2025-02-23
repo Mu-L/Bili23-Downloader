@@ -250,7 +250,7 @@ export default defineConfig({
     },
     
     returnToTopLabel: '回到顶部',
-    sidebarMenuLabel: '页面导航',
-    outlineTitle: '目录'
+    sidebarMenuLabel: '菜单',
+    outlineTitle: '页面导航'
   }
 })
