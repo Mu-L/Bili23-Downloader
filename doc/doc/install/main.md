@@ -1,7 +1,15 @@
 <script setup>
     import { version } from '../../package.json'
-
+    
     let release_asset = `Bili23_Downloader_v${version}_release.tar.gz`
+    let release_asset_github = `https://github.com/ScottSloan/Bili23-Downloader/releases/download/v${version}/Bili23_Downloader_v${version}_release.tar.gz`
+    
+    let release_asset_win_ffmpeg = `Bili23-Downloader-${version}-win-amd64.zip`
+    let release_asset_win_ffmpeg_github = `https://github.com/ScottSloan/Bili23-Downloader/releases/download/v${version}/Bili23-Downloader-${version}-win-amd64.zip`
+
+    let release_asset_win = `Bili23_Downloader_v${version}_win_x64.zip`
+    let release_asset_win_github = `https://github.com/ScottSloan/Bili23-Downloader/releases/download/v${version}/Bili23_Downloader_v${version}_win_x64.zip`
+
 </script>
 
 # 安装程序
@@ -12,13 +20,15 @@
 | 文件名 | 平台架构 | 下载地址 | 备注 |
 | -- | -- | -- | -- |
 | {{ release_asset }} | 通用 | - | 源码版 |
-| Bili23-Downloader-1.55.0-win-amd64.zip | Windows x64 | <a href="https://github.com/ScottSloan/Bili23-Downloader/releases/tag/v1.55.0" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/iJNAV2m5jdna" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，附带 FFmpeg |
-| Bili23-Downloader_v1.55.0_win_x64.zip | Windows x64 | - | 编译版，不附带 FFmpeg |
+| {{ release_asset_win_ffmpeg }} | Windows x64 | <a href="{{ release_asset_win_ffmpeg_github }}" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/iJNAV2m5jdna" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，附带 FFmpeg |
+| {{ release_asset_win }} | Windows x64 | - | 编译版，不附带 FFmpeg |
 
 文件 SHA1 值校验
 | 文件名 | SHA1 |
 | -- | -- |
-| Bili23-Downloader-1.55.0-win-amd64.zip | a272880fe688597b1419633f4a75808273d360a2 |
+| {{ release_asset }} | - |
+| {{ release_asset_win_ffmpeg }} | a272880fe688597b1419633f4a75808273d360a2 |
+| {{ release_asset_win }} | - |
 
 :::tip
 下载完成后建议校验 SHA1 值，防止程序被篡改。  
@@ -82,7 +92,8 @@ cd Bili23-Downloader
 若系统未安装 git，请下载上方 tar.gz 格式源码并解压，进入到 requirements.txt 同一级目录。
 
 ### 安装依赖
-执行下面的命令一键安装所需依赖：
+#### Windows & macOS
+Windows 和 macOS 用户可以执行下面的命令一键安装所需依赖：
 
 ```bash
 pip install -r requirements.txt
@@ -99,6 +110,16 @@ pip install -r requirements.txt
 ```bash
 pip install wxPython>=4.2.0 qrcode[pil]==7.4.2 requests>=2.30.0
 ```
+#### Linux
+由于 Linux 平台各发行版存在差异，wxPython 需使用相应的包管理器进行安装，以 Ubuntu 为例，运行下面的命令：
+```bash
+sudo apt install python3-wxgtk4.0 python3-wxgtk-webview4.0
+```
+
+随后再运行下面的命令安装其他依赖：
+```bash
+pip install qrcode[pil]==7.4.2 requests>=2.30.0
+```
 
 ### 运行程序
 直接运行 GUI.py 即可打开程序：
@@ -106,17 +127,6 @@ pip install wxPython>=4.2.0 qrcode[pil]==7.4.2 requests>=2.30.0
 ```bash
 cd src
 python3 GUI.py
-```
-
-### 安装 wxPython
-对于 Linux 用户，pip 源中可能没有提供 wxPython 的包，需要手动编译或[从此下载](https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-22.04/)。  
-
-手动编译请执行以下代码：
-
-```bash
-sudo apt install libgtk-3-dev
-
-pip install wxPython
 ```
 
 ## 编译版使用
