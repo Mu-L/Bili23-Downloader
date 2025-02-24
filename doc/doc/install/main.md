@@ -46,7 +46,6 @@
     -> 源码版
 
 ### 如何校验 SHA1
-根据系统运行下方的命令：
 #### Windows
 ```bash
 certutil -hashfile <file> SHA1
@@ -115,7 +114,7 @@ pip install wxPython>=4.2.0 qrcode[pil]==7.4.2 requests>=2.30.0
 sudo apt install python3-wxgtk4.0 python3-wxgtk-webview4.0
 ```
 
-随后再运行下面的命令安装其他依赖：
+随后再安装其他依赖：
 ```bash
 pip install qrcode[pil]==7.4.2 requests>=2.30.0
 ```
@@ -123,7 +122,7 @@ pip install qrcode[pil]==7.4.2 requests>=2.30.0
 ### 安装 FFmpeg
 程序依赖 FFmpeg 实现音视频合成，格式转换，直播录制等功能，缺少时将影响正常使用。  
 
-点击[此处](https://bili23.scott-sloan.cn/doc/install/ffmpeg.html)查看 FFmpeg 安装教程。
+有关 FFmpeg 的安装，请参考[下一页](https://bili23.scott-sloan.cn/doc/install/ffmpeg.html)内容。
 
 ### 运行程序
 直接运行 GUI.py 即可打开程序：
