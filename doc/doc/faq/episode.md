@@ -1,6 +1,8 @@
 # 剧集列表相关问题
 ## 视频标题显示不全\与实际不符
 ### 问题展示
+可见部分视频标题显示异常：
+
 <img src="https://s21.ax1x.com/2025/02/24/pE1JJpQ.png" alt="pE1JJpQ.png" style="width: 550px;">
 
 ### 解决方案
