@@ -9,7 +9,7 @@
 Windows 用户需手动下载，并创建环境变量。
 
 [官网下载](https://ffmpeg.org/)  
-[蓝奏云](https://wwx.lanzout.com/iW4GP2azpdzg) 密码：e82q（来源于：gyan.dev，版本：7.0.1）
+[蓝奏云](https://wwx.lanzout.com/iMJkM2oup3mh) 密码：dnn9（来源于：gyan.dev，版本：7.1）
 
 ## Linux
 ### 方式一：包管理器安装
