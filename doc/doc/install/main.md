@@ -2,8 +2,8 @@
     import { version } from '../../package.json'
     
     let release_asset = `Bili23_Downloader_v${version}_release.tar.gz`
-    let release_asset_win_ffmpeg = `Bili23-Downloader-${version}-win-amd64.zip`
-    let release_asset_win = `Bili23_Downloader_v${version}_win_x64.zip`
+    let release_asset_win_ffmpeg = `Bili23_Downloader_${version}_win_x64_with_ffmpeg_release.zip`
+    let release_asset_win = `Bili23_Downloader_v${version}_win_x64_release.zip`
 
     let release_asset_github = (version, file)=> {
         return `https://github.com/ScottSloan/Bili23-Downloader/releases/download/v${version}/${file}`
@@ -18,16 +18,16 @@
 
 | 文件名 | 平台架构 | 下载地址 | 备注 |
 | -- | -- | -- | -- |
-| {{ release_asset }} | 通用 | - | 源码版 |
-| {{ release_asset_win_ffmpeg }} | Windows x64 | <a :href="release_asset_github(version, release_asset_win_ffmpeg)" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/iJNAV2m5jdna" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，附带 FFmpeg |
-| {{ release_asset_win }} | Windows x64 | - | 编译版，不附带 FFmpeg |
+| {{ release_asset }} | 通用 | <a :href="release_asset_github(version, release_asset)" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/iSjw52ounfej" target="_blank" rel="noreferer">蓝奏云</a> | 源码版 |
+| {{ release_asset_win_ffmpeg }} | Windows x64 | <a :href="release_asset_github(version, release_asset_win_ffmpeg)" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/itIAw2ounswf" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，附带 FFmpeg |
+| {{ release_asset_win }} | Windows x64 | <a :href="release_asset_github(version, release_asset_win)" target="_blank" rel="noreferer">GitHub</a> <br> <a href="hhttps://wwx.lanzout.com/iTzah2ounj5e" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，不附带 FFmpeg |
 
 文件 SHA1 值校验
 | 文件名 | SHA1 |
 | -- | -- |
-| {{ release_asset }} | - |
-| {{ release_asset_win_ffmpeg }} | a272880fe688597b1419633f4a75808273d360a2 |
-| {{ release_asset_win }} | - |
+| {{ release_asset }} | b7d48820ba42034c84f5bc3db0cd06ab3938e1ba |
+| {{ release_asset_win_ffmpeg }} | c70ea867ffb4fc84f94dfad6c1f0b5c2f3e6f9c0 |
+| {{ release_asset_win }} | b03eb5d552984e1f09ecdbabd46fe9b83afb9025 |
 
 :::tip
 下载完成后建议校验 SHA1 值，防止程序被篡改。  
