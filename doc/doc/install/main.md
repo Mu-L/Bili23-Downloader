@@ -1,7 +1,7 @@
 <script setup>
     import { version } from '../../package.json'
     
-    let release_asset = `Bili23_Downloader_v${version}_release.tar.gz`
+    let release_asset = `Bili23_Downloader_v${version}_release.zip`
     let release_asset_win_ffmpeg = `Bili23_Downloader_v${version}_win_x64_with_ffmpeg_release.zip`
     let release_asset_win = `Bili23_Downloader_v${version}_win_x64_release.zip`
 
