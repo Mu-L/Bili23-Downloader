@@ -18,9 +18,9 @@
 
 | 文件名 | 平台架构 | 下载地址 | 备注 |
 | --- | --- | --- | --- |
-| Bili23_Downloader_v{{ version }}_release.zip | 通用 | <a :href="release_asset_github(version, release_asset)" target="_blank" rel="noreferer">GitHub</a> \| <a href="https://wwx.lanzout.com/iSjw52ounfej" target="_blank" rel="noreferer">蓝奏云</a> | 源码版，需要 Python 环境，并安装 FFmpeg |
-| <span>Bili23_Downloader_v{{ version }}_</span><br><span>win_x64_with_ffmpeg_release.zip</span> | Windows x64 | <a :href="release_asset_github(version, release_asset_win_ffmpeg)" target="_blank" rel="noreferer">GitHub</a> \| <a href="https://wwx.lanzout.com/iiptp2oxafaf" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，附带 FFmpeg |
-| <span>Bili23_Downloader_v{{ version }}_</span><br><span>win_x64_release.zip</span> | Windows x64 | <a :href="release_asset_github(version, release_asset_win)" target="_blank" rel="noreferer">GitHub</a> \| <a href="https://wwx.lanzout.com/iQN8j2oxadqj" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，不附带 FFmpeg |
+| Bili23_Downloader_v{{ version }}_release.zip | 通用 | <a :href="release_asset_github(version, release_asset)" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/iSjw52ounfej" target="_blank" rel="noreferer">蓝奏云</a> | 源码版，需要 Python 环境，并安装 FFmpeg |
+| <span>Bili23_Downloader_v{{ version }}_</span><br><span>win_x64_with_ffmpeg_release.zip</span> | Windows x64 | <a :href="release_asset_github(version, release_asset_win_ffmpeg)" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/iiptp2oxafaf" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，附带 FFmpeg |
+| <span>Bili23_Downloader_v{{ version }}_</span><br><span>win_x64_release.zip</span> | Windows x64 | <a :href="release_asset_github(version, release_asset_win)" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/iQN8j2oxadqj" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，不附带 FFmpeg |
 
 文件 SHA1 值校验
 | 文件名 | SHA1 |
@@ -122,7 +122,11 @@ pip install qrcode[pil]==7.4.2 requests>=2.30.0
 ### 安装 FFmpeg
 程序依赖 FFmpeg 实现音视频合成，格式转换，直播录制等功能，缺少时将影响正常使用。  
 
-有关 FFmpeg 的安装，请参考[下一页](https://bili23.scott-sloan.cn/doc/install/ffmpeg.html)内容。
+有关 FFmpeg 的安装，请参考[下一页](https://bili23.scott-sloan.cn/doc/install/ffmpeg.html)内容。  
+
+:::tip
+若使用的是附带 FFmpeg 的编译版，无需再次安装。
+:::
 
 ### 运行程序
 直接运行 GUI.py 即可打开程序：
