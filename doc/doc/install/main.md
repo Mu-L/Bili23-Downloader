@@ -18,9 +18,9 @@
 
 | 文件名 | 平台架构 | 下载地址 | 备注 |
 | --- | --- | --- | --- |
-| {{ release_asset }} | 通用 | <a :href="release_asset_github(version, release_asset)" target="_blank" rel="noreferer">GitHub</a> \| <a href="https://wwx.lanzout.com/iSjw52ounfej" target="_blank" rel="noreferer">蓝奏云</a> | 源码版，需要 Python 环境，并安装 FFmpeg |
-| {{ release_asset_win_ffmpeg }} | Windows x64 | <a :href="release_asset_github(version, release_asset_win_ffmpeg)" target="_blank" rel="noreferer">GitHub</a> \| <a href="https://wwx.lanzout.com/iiptp2oxafaf" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，附带 FFmpeg |
-| {{ release_asset_win }} | Windows x64 | <a :href="release_asset_github(version, release_asset_win)" target="_blank" rel="noreferer">GitHub</a> \| <a href="https://wwx.lanzout.com/iQN8j2oxadqj" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，不附带 FFmpeg |
+| Bili23_Downloader_v{{ version }}_release.zip | 通用 | <a :href="release_asset_github(version, release_asset)" target="_blank" rel="noreferer">GitHub</a> \| <a href="https://wwx.lanzout.com/iSjw52ounfej" target="_blank" rel="noreferer">蓝奏云</a> | 源码版，需要 Python 环境，并安装 FFmpeg |
+| Bili23_Downloader_v{{ version }}_<br>win_x64_with_ffmpeg_release.zip | Windows x64 | <a :href="release_asset_github(version, release_asset_win_ffmpeg)" target="_blank" rel="noreferer">GitHub</a> \| <a href="https://wwx.lanzout.com/iiptp2oxafaf" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，附带 FFmpeg |
+| Bili23_Downloader_v{{ version }}_<br>win_x64_release.zip | Windows x64 | <a :href="release_asset_github(version, release_asset_win)" target="_blank" rel="noreferer">GitHub</a> \| <a href="https://wwx.lanzout.com/iQN8j2oxadqj" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，不附带 FFmpeg |
 
 文件 SHA1 值校验
 | 文件名 | SHA1 |
