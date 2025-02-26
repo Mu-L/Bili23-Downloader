@@ -26,8 +26,8 @@
 | 文件名 | SHA1 |
 | -- | -- |
 | {{ release_asset }} | b7d48820ba42034c84f5bc3db0cd06ab3938e1ba |
-| {{ release_asset_win_ffmpeg }} | c70ea867ffb4fc84f94dfad6c1f0b5c2f3e6f9c0 |
-| {{ release_asset_win }} | b03eb5d552984e1f09ecdbabd46fe9b83afb9025 |
+| {{ release_asset_win_ffmpeg }} | 21f3138f496267b63096dea7455a86b1d7e072c1 |
+| {{ release_asset_win }} | f8ae3156813e0202901cf660c600d5360c064462 |
 
 :::tip
 下载完成后建议校验 SHA1 值，防止程序被篡改。  
