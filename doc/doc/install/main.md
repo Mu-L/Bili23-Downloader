@@ -35,7 +35,8 @@
 本程序完全开源免费，若是从其他渠道付费获取的，无法保证其安全性和完整性。  
 
 本程序发行版由 Github Actions 自动编译，源码同步 main 分支，不包含任何恶意代码。如果对防病毒软件报毒有疑问的，请删除本程序，使用其他同类工具。  
-VirScan 在线病毒检测报告，参见[此处](https://www.virscan.org/report/9ebd90315184a3ff6a99906955f34bad1bfadf8a6249360785e897bd17e4f3ae)。
+
+VirScan 在线病毒检测报告请[点此查看](https://www.virscan.org/report/9ebd90315184a3ff6a99906955f34bad1bfadf8a6249360785e897bd17e4f3ae)。
 :::
 
 ### 如何选择下载版本
