@@ -22,6 +22,11 @@
 | <span>Bili23_Downloader_v{{ version }}_</span><br><span>win_x64_with_ffmpeg_release.zip</span> | Windows x64 | <a :href="release_asset_github(version, release_asset_win_ffmpeg)" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/iCE412p0z6wb" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，附带 FFmpeg |
 | <span>Bili23_Downloader_v{{ version }}_</span><br><span>win_x64_release.zip</span> | Windows x64 | <a :href="release_asset_github(version, release_asset_win)" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/iKQuG2p0z0zi" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，不附带 FFmpeg |
 
+:::important 重要
+若您使用的是编译版，请先确保安装 Microsoft Visual C++ 2015-2022 运行库，否则无法运行本程序。
+如果未安装，请[点击此处](https://aka.ms/vs/17/release/vc_redist.x64.exe)下载安装。
+:::
+
 文件 SHA1 值校验
 | 文件名 | SHA1 |
 | -- | -- |
