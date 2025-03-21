@@ -9,9 +9,9 @@
 
 确保登录后，在链接框中输入 URL，点击`Get`按钮开始解析，解析完成后显示剧集列表，如下图所示。
 
-[![pAxOkb6.png](https://s21.ax1x.com/2024/12/30/pAxOkb6.png)](https://imgse.com/i/pAxOkb6)
+<img src="https://s21.ax1x.com/2025/03/21/pE0pBKP.png" alt="pAxOkb6.png" style="width: 90%;">
 
-点击剧集列表项目前面的小框，勾选需要下载的视频，再点击`下载视频`即可一键下载。
+点击剧集列表项目前方的选择框，勾选需要下载的视频，再点击`开始下载`即可加入下载列表。
 
 :::tip
 目前暂不支持输入多个链接，将在后续版本中更新。
@@ -31,7 +31,7 @@
 ### 自定义下载设置
 点击右上角小齿轮图标可自定义清晰度和音质等下载设置。
 
-[![pAxXee0.png](https://s21.ax1x.com/2024/12/30/pAxXee0.png)](https://imgse.com/i/pAxXee0)
+<img src="https://s21.ax1x.com/2025/03/21/pE09VMt.png" alt="pAxOkb6.png" style="width: 90%;">
 
 若选择`自动`，则自动下载视频最高可用清晰度或音质。  
 目前版本下载视频字幕时将下载所有字幕，以语言代码区分。
@@ -55,10 +55,10 @@
 在此处修改的标题将在下载时作为文件名。
 :::
 
-## 下载窗口
-点击`下载管理`按钮，进入下载管理窗口，如下图所示。
+## 下载管理窗口
+点击`下载管理`按钮，进入下载管理窗口。
 
-[![pAl4IxO.png](https://s21.ax1x.com/2024/09/27/pAl4IxO.png)](https://imgse.com/i/pAl4IxO)
+<img src="https://s21.ax1x.com/2025/03/21/pE09udS.png" alt="pAxOkb6.png" style="width: 90%;">
 
 下载管理窗口提供强大的下载任务批量管理能力，具有以下特性：
 * 界面美观，简洁易用
