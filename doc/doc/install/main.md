@@ -31,8 +31,8 @@
 | 文件名 | SHA1 |
 | -- | -- |
 | {{ release_asset }} | F1B192960684274CF91C5E620C8E0BFB84DCC1CA |
-| <span>Bili23_Downloader_v{{ version }}_</span><br><span>win_x64_with_ffmpeg_release.zip</span> | 5323643A8C17FBA7B6844378349831CEF59C08F5 |
-| <span>Bili23_Downloader_v{{ version }}_</span><br><span>win_x64_release.zip</span> | E4CB6E12E436072CA76D4893FC259776A1C3EF54 |
+| <span>Bili23_Downloader_v{{ version }}_</span><br><span>win_x64_with_ffmpeg_release.zip</span> | E4CB6E12E436072CA76D4893FC259776A1C3EF54 |
+| <span>Bili23_Downloader_v{{ version }}_</span><br><span>win_x64_release.zip</span> | 5323643A8C17FBA7B6844378349831CEF59C08F5 |
 
 :::tip
 下载完成后建议校验 SHA1 值，防止程序被篡改。  
