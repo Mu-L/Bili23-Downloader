@@ -113,21 +113,24 @@ pip install -r requirements.txt
 | -- | -- | -- |
 | requests | >=2.30.0 | - |
 | wxPython | >=4.2.0 | - |
-| qrcode[pil] | ==7.4.2 | 必须附带 [pil]，否则程序可能无法运行，不建议使用 8.0 及以上版本。 |
+| qrcode[pil] | >=7.4.2 | 必须附带 [pil]（Pillow），否则程序可能无法运行 |
 
 用户也可以手动安装：
 ```bash
-pip install wxPython>=4.2.0 qrcode[pil]==7.4.2 requests>=2.30.0
+pip install wxPython qrcode[pil] requests
 ```
 #### Linux
-由于 Linux 平台各发行版存在差异，wxPython 需使用相应的包管理器进行安装，以 Ubuntu 为例，运行下面的命令：
+由于 Linux 平台各发行版存在差异，wxPython 安装较为繁琐，以下提供最简便的安装方式。
+wxPython 官方提供 Debian、Ubuntu、Fedora 和 Centos 等发行版 wheel 包，点击[此处](https://extras.wxpython.org/wxPython4/extras/linux/gtk3/)跳转。
+
+以 Ubuntu 24.04 系统为例，执行下面的命令即可安装：
 ```bash
-sudo apt install python3-wxgtk4.0 python3-wxgtk-webview4.0
+pip install -U -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-24.04/ wxPython
 ```
 
 随后再安装其他依赖：
 ```bash
-pip install qrcode[pil]==7.4.2 requests>=2.30.0
+pip install qrcode[pil] requests
 ```
 
 ### 安装 FFmpeg
