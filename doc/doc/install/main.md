@@ -39,9 +39,9 @@
 
 本程序完全开源免费，若是从其他渠道付费获取的，无法保证其安全性和完整性。  
 
-本程序发行版由 Github Actions 自动编译，源码同步 main 分支，不包含任何恶意代码。如果对防病毒软件报毒有疑问的，请删除本程序，使用其他同类工具。  
+本程序发行版使用 Nuitka 手动，可能会被防病毒软件误报。如果对防病毒软件报毒有疑问的，请删除本程序，使用其他同类工具。  
 
-VirScan 在线病毒检测报告请[点此查看](https://www.virscan.org/report/9ebd90315184a3ff6a99906955f34bad1bfadf8a6249360785e897bd17e4f3ae)。
+VirScan 在线病毒检测报告请[点此查看](https://www.virscan.org/report/3c1bb0d73a5c5d8bc645867e76d739c1a7aa0ae38cf5301f446e0f15e9434f1b)。
 :::
 
 ### 如何选择下载版本
@@ -98,7 +98,7 @@ git clone https://github.com/ScottSloan/Bili23-Downloader.git
 cd Bili23-Downloader
 ```
 
-若系统未安装 git，请下载上方 tar.gz 格式源码并解压，进入到 requirements.txt 同一级目录。
+若系统未安装 git，请下载上方的源码版并解压，进入到 requirements.txt 同一级目录。
 
 ### 安装依赖
 #### Windows & macOS
