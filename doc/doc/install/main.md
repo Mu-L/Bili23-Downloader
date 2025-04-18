@@ -13,8 +13,7 @@
 
 # 安装程序
 ## 下载发行版
-用户可前往[GitHub Release](https://github.com/ScottSloan/Bili23-Downloader/releases/)页面查看历史版本。  
-也可以在下方列表中根据需要选择下载。
+用户可前往[GitHub Release](https://github.com/ScottSloan/Bili23-Downloader/releases/)页面查看历史版本，也可以在下方列表中根据需要选择下载。
 
 | 文件名 | 平台架构 | 下载地址 | 备注 |
 | --- | --- | --- | --- |
@@ -39,7 +38,7 @@
 
 本程序完全开源免费，若是从其他渠道付费获取的，无法保证其安全性和完整性。  
 
-本程序发行版使用 Nuitka 手动，可能会被防病毒软件误报。如果对防病毒软件报毒有疑问的，请删除本程序，使用其他同类工具。  
+本程序发行版使用 Nuitka 编译，可能会被防病毒软件误报。如果对防病毒软件报毒有疑问的，请删除本程序，使用其他同类工具。  
 
 VirScan 在线病毒检测报告请[点此查看](https://www.virscan.org/report/3c1bb0d73a5c5d8bc645867e76d739c1a7aa0ae38cf5301f446e0f15e9434f1b)。
 :::
