@@ -18,9 +18,9 @@
 
 | 文件名 | 平台架构 | 下载地址 | 备注 |
 | --- | --- | --- | --- |
-| {{ release_asset }} | 通用 | <a :href="release_asset_github(version, release_asset)" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/iHMyw2rba9te" target="_blank" rel="noreferer">蓝奏云</a> | 源码版，需要 Python 环境，并安装 FFmpeg |
-| <span>Bili23_Downloader_v{{ version }}_</span><br><span>win_x64_with_ffmpeg_release.zip</span> | Windows x64 | <a :href="release_asset_github(version, release_asset_win_ffmpeg)" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/iHYy12rbad8h" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，附带 FFmpeg |
-| <span>Bili23_Downloader_v{{ version }}_</span><br><span>win_x64_release.zip</span> | Windows x64 | <a :href="release_asset_github(version, release_asset_win)" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/ibzWb2rbaari" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，不附带 FFmpeg |
+| {{ release_asset }} | 通用 | <a :href="release_asset_github(version, release_asset)" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/i23TU2tx3bqf" target="_blank" rel="noreferer">蓝奏云</a> | 源码版，需要 Python 环境，并安装 FFmpeg |
+| <span>Bili23_Downloader_v{{ version }}_</span><br><span>win_x64_with_ffmpeg_release.zip</span> | Windows x64 | <a :href="release_asset_github(version, release_asset_win_ffmpeg)" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/i9XPI2tx3csd" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，附带 FFmpeg |
+| <span>Bili23_Downloader_v{{ version }}_</span><br><span>win_x64_release.zip</span> | Windows x64 | <a :href="release_asset_github(version, release_asset_win)" target="_blank" rel="noreferer">GitHub</a> <br> <a href="https://wwx.lanzout.com/i455v2tx3c1g" target="_blank" rel="noreferer">蓝奏云</a> | 编译版，不附带 FFmpeg |
 
 ::: warning 重要提示
 若您使用的是编译版，请先确保安装 Microsoft Visual C++ 2015-2022 运行库，否则无法运行本程序。
@@ -30,9 +30,9 @@
 文件 SHA1 值校验
 | 文件名 | SHA1 |
 | -- | -- |
-| {{ release_asset }} | F1B192960684274CF91C5E620C8E0BFB84DCC1CA |
-| <span>Bili23_Downloader_v{{ version }}_</span><br><span>win_x64_with_ffmpeg_release.zip</span> | E4CB6E12E436072CA76D4893FC259776A1C3EF54 |
-| <span>Bili23_Downloader_v{{ version }}_</span><br><span>win_x64_release.zip</span> | 5323643A8C17FBA7B6844378349831CEF59C08F5 |
+| {{ release_asset }} | 7a2d45d3f0ba9efd68a9ad4141bd51c186b1cf1c |
+| <span>Bili23_Downloader_v{{ version }}_</span><br><span>win_x64_with_ffmpeg_release.zip</span> | fb147ea756a2ed7fdfbe5978d90646bddaadb7ef |
+| <span>Bili23_Downloader_v{{ version }}_</span><br><span>win_x64_release.zip</span> | f9b72b9eae53b1fd5687c4dbed9d2055b7d9e81c |
 
 :::tip
 下载完成后建议校验 SHA1 值，防止程序被篡改。  
