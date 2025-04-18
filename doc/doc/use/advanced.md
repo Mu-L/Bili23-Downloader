@@ -21,12 +21,13 @@
 
 <img src="https://s21.ax1x.com/2025/02/23/pElRdL6.png" alt="pElRdL6.png" style="width: 50%;">
 
+
 ## 替换音视频流 CDN host
 因 B 站默认分配的 CDN 线路不稳定，容易导致下载失败，因此建议开启`替换音视频流 CDN host`功能。
 
 [![pE1MEKf.png](https://s21.ax1x.com/2025/02/24/pE1MEKf.png)](https://imgse.com/i/pE1MEKf)
 
-程序提供 13 个大厂 CDN host（华为云、腾讯云、阿里云等）供选择，如有其他需要，也可自定义添加。
+程序提供多种 CDN host 供用户选择，如有其他需要，也可自定义添加。
 
 点击`Ping 测试`即可测试全部 CDN host 的连通性。
 
@@ -38,13 +39,15 @@
 :::
 
 :::warning
-如果开启了此功能仍然出现下载失败的问题，请尝试关闭此功能或更换其他 CDN host。
+如果开启了此功能仍然出现下载失败的问题，请尝试关闭此功能或更换其他 CDN host。  
+
+使用代理时，请手动关闭此选项。
 :::
 
 ## 自定义下载文件名
 在设置中切换到`高级`选项卡进行相关设置。  
 
-<img src="https://s21.ax1x.com/2025/03/21/pE0pkuV.png" alt="pE1Jeld.png" style="width: 90%;">
+<img src="https://s21.ax1x.com/2025/04/18/pEhxRWn.png" alt="pEhxRWn.png" style="width: 90%;">
 
 目前支持添加的字段如下表所示，其他字段将于后续版本支持。  
 
@@ -55,7 +58,7 @@
 | \{pubdatetime\} | 视频发布的日期和时间 | 2022-10-30 00-30-00 |
 | \{pubtimestamp\} | 视频发布的时间戳 | 1667061000 |
 | \{number\} | 序号 | 1 |
-| \{number_with_zero\} | 在前方自动补零的序号 | 01、001 |
+| \{number_with_zero\} | 补零序号 | 01、001 |
 | \{tname\} | 分区（仅投稿视频有效） | 综合 |
 | \{subtname\} | 子分区（仅投稿视频有效） | 动漫剪辑 |
 | \{area\} | 地区（仅剧集类视频有效） | 日本 |
