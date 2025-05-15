@@ -40,7 +40,7 @@
 
 本程序发行版使用 Nuitka 编译，可能会被防病毒软件误报。如果对防病毒软件报毒有疑问的，请删除本程序，使用其他同类工具。  
 
-VirScan 在线病毒检测报告请[点此查看](https://www.virscan.org/report/3c1bb0d73a5c5d8bc645867e76d739c1a7aa0ae38cf5301f446e0f15e9434f1b)。
+VirScan 在线病毒检测报告请[点此查看](https://www.virscan.org/report/36323a3aa3c65a056cf18d4491c4926d03d3aa77e1b5651d32c55cd02fd47af9)。
 :::
 
 ### 如何选择下载版本
