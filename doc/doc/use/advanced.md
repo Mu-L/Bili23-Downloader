@@ -25,18 +25,11 @@
 ## 替换音视频流 CDN host
 因 B 站默认分配的 CDN 线路不稳定，容易导致下载失败，因此建议开启`替换音视频流 CDN host`功能。
 
-[![pE1MEKf.png](https://s21.ax1x.com/2025/02/24/pE1MEKf.png)](https://imgse.com/i/pE1MEKf)
-
-程序提供多种 CDN host 供用户选择，如有其他需要，也可自定义添加。
+程序将根据优先级顺序选择可用的 CDN host，如有需要可自行调整。
 
 点击`Ping 测试`即可测试全部 CDN host 的连通性。
 
-<img src="https://s21.ax1x.com/2025/02/24/pE1Jeld.png" alt="pE1Jeld.png" style="width: 90%;">
-
-:::tip
-设置为`自动切换`时，将根据预定顺序依次优先选择可用的 CDN host。   
-设置为`手动选择`时，选择用户指定的 CDN host。
-:::
+<img src="https://s21.ax1x.com/2025/05/16/pEjXOGq.png" alt="pEjXOGq.png" style="width: 90%;">
 
 :::warning
 如果开启了此功能仍然出现下载失败的问题，请尝试关闭此功能或更换其他 CDN host。  
@@ -82,7 +75,7 @@
 :::
 
 ## 查看互动视频剧情树
-复制互动视频链接后，点击剧集列表上方的`剧情树`按钮，查看剧情树。  
+解析互动视频链接后，点击剧集列表上方的`剧情树`按钮，查看剧情树。  
 点击保存图标即可将剧情树导出为 png 图像。
 
 <img src="https://s21.ax1x.com/2025/05/15/pEjqbI1.png" alt="pEjqbI1.png" style="width: 90%;"/>
