@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'zh-CN',
   title: "Bili23 Downloader",
-  description: "一个 B 站视频下载工具",
+  description: "跨平台的 B 站视频下载工具，支持 Windows、Linux、macOS 三平台，下载 B 站视频/番剧/电影/纪录片 等资源",
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -61,7 +61,30 @@ export default defineConfig({
           },
           {
             text: '进阶使用',
-            link: '/doc/use/advanced'
+            collapsed: true,
+            items: [
+              {
+                text: '使用代理',
+                link: '/doc/use/advanced/proxy'
+              },
+              {
+                text: '并行下载',
+                link: '/doc/use/advanced/parallel_downloading'
+              },
+              {
+                text: '替换音视频流 CDN host',
+                link: '/doc/use/advanced/cdn_host'
+              },
+              {
+                text: '自定义下载文件名',
+                link: '/doc/use/advanced/custom_file_name'
+              },
+              {
+                text: '互动视频剧情树',
+                link: '/doc/use/advanced/interact_video_graph'
+              }
+
+            ],
           },
           {
             text: '更新程序',
