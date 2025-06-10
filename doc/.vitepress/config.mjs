@@ -76,7 +76,7 @@ export default defineConfig({
                 link: '/doc/use/advanced/cdn_host'
               },
               {
-                text: '自定义下载文件名',
+                text: '自定义下载文件名&自动分类',
                 link: '/doc/use/advanced/custom_file_name'
               },
               {
