@@ -72,7 +72,7 @@ export default defineConfig({
                 link: '/doc/use/advanced/parallel_downloading'
               },
               {
-                text: '替换音视频流 CDN host',
+                text: '替换音视频流 CDN 节点',
                 link: '/doc/use/advanced/cdn_host'
               },
               {
