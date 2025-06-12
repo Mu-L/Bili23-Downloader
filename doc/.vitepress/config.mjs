@@ -44,6 +44,10 @@ export default defineConfig({
           {
             text: '安装 FFmpeg',
             link: '/doc/install/ffmpeg'
+          },
+          {
+            text: '安装 VLC Media Player',
+            link: '/doc/install/vlc'
           }
         ]
       },
