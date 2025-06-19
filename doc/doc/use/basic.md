@@ -7,9 +7,22 @@
 ## 主界面
 首次启动程序后，点击程序左下角显示为`未登录`的区域，或通过菜单栏点击`工具`->`登录`，打开登录窗口完成登录操作。
 
+接下来从菜单栏点击`工具`->`设置`，打开设置窗口，根据需要调整相关设置。
+
+:::details 查看如何找到设置窗口
+### Windows
+<img src="https://s21.ax1x.com/2025/06/19/pVVG6pj.png" alt="Windows">
+
+### Linux
+<img src="https://s21.ax1x.com/2025/06/19/pVVGXB6.png" alt="Linux">
+
+### macOS
+<img src="https://s21.ax1x.com/2025/06/19/pVVGgcn.png" alt="macOS">
+:::
+
 在链接输入框中输入 URL 后，点击`Get`按钮开始解析。解析完成后，将显示剧集列表，如下图所示：
 
-<img src="https://s21.ax1x.com/2025/03/21/pE0pBKP.png" alt="剧集列表" style="width: 90%;">
+<img src="https://s21.ax1x.com/2025/03/21/pE0pBKP.png" alt="剧集列表">
 
 *图1 剧集列表示意图*
 
@@ -24,7 +37,7 @@
 ### 修改剧集列表显示方式
 点击右上角的`列表图标`可切换剧集列表的显示方式。  
 
-<img src="https://s21.ax1x.com/2024/12/30/pAxXRk8.png" alt="剧集列表显示方式" style="width: 90%;">
+<img src="https://s21.ax1x.com/2024/12/30/pAxXRk8.png" alt="剧集列表显示方式">
 
 *图2 剧集列表显示方式示意图*
 
@@ -39,7 +52,7 @@
 ### 自定义下载设置
 点击右上角的`齿轮图标`可设置视频清晰度、音质等参数。
 
-<img src="https://s21.ax1x.com/2025/06/11/pVk1Z4I.png" alt="自定义下载设置" style="width: 90%;">
+<img src="https://s21.ax1x.com/2025/06/11/pVk1Z4I.png" alt="自定义下载设置">
 
 *图3 自定义下载设置示意图*
 
@@ -58,7 +71,7 @@
 ### 右键菜单
 在剧集列表中点击鼠标右键，可执行如下图所示的多种操作。
 
-<img src="https://s21.ax1x.com/2025/02/23/pElc1de.png" alt="右键菜单" style="width: 90%;">
+<img src="https://s21.ax1x.com/2025/02/23/pElc1de.png" alt="右键菜单">
 
 *图4 右键菜单示意图*
 
@@ -69,7 +82,7 @@
 ## 下载管理窗口
 点击底部的`下载管理`按钮进入下载管理界面。
 
-<img src="https://s21.ax1x.com/2025/03/21/pE09udS.png" alt="pAxOkb6.png" style="width: 90%;">
+<img src="https://s21.ax1x.com/2025/03/21/pE09udS.png" alt="pAxOkb6.png">
 
 *图5 下载管理示意图*
 
